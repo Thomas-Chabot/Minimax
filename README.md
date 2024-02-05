@@ -19,8 +19,6 @@ The main logic of the algorithm takes place after we've reached our target depth
 ## 1.3 Alpha-Beta Pruning
 Alpha-Beta Pruning is an additional step which can be added on top of the algorithm to help reduce the number of steps that have to be taken. Because we know at each level that we're either minimizing or maximizing our target values, we can pass in our current best through each branch being checked, and exit early if we determine that we can't bypass our best so far. This can drastically reduce the amount of work that has to be done.
 
-## 1.4 More Information
-
 # 2. Using the Library
 ## 2.1 Installing
 Installation is simple, just call `npm install @rbxts/minimax`.
